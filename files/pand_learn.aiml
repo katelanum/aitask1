@@ -1,8 +1,9 @@
-<!-- <?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0"> 
 
 <category>
 	<pattern>STATISTICS</pattern>
 	<template><srai>STATS</srai></template>
 	<template>You might enjoy being a Data Scientist. They use various tools to make mathematical and statistical insights from data. They often leverage machine learning for this as well.</template>
-</category> -->
+</category>
+</aiml>
