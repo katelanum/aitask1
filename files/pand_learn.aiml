@@ -1,9 +1,86 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aiml version="2.0"> 
 
-<category>
-	<pattern>STATISTICS</pattern>
-	<template><srai>STATS</srai></template>
-	<template>You might enjoy being a Data Scientist. They use various tools to make mathematical and statistical insights from data. They often leverage machine learning for this as well.</template>
+ <category>
+    <pattern>hello</pattern>
+    <template>Hello, I'm your career advisor bot. Nice to meet you. Which of these did you enjoy most during your degree? 
+        <ul>
+            <li>Statistics</li>
+            <li>Math</li>
+            <li>Machine Learning</li>
+            <li>Web Development</li>
+            <li>Communication</li>
+            <li>Cybersecurity</li>
+            <li>Project Management</li>
+            <li>Programming</li>
+            <li>Algorithms</li>
+            <li>Security</li>
+            <li>Data Management</li>
+            <li>Technical Communications</li>
+            <li>Quality Assurance</li>
+        </ul>
+    </template>
 </category>
+
+<category>
+    <pattern>stats</pattern>
+    <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year.</template>
+</category>
+
+<category>
+    <pattern>maths</pattern>
+    <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year.</template>
+</category>
+
+<category>
+    <pattern>mathematics</pattern>
+    <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year.</template>
+</category>
+
+<category>
+    <pattern>ml</pattern>
+    <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year.</template>
+</category>
+
+ <category>
+    <pattern>data</pattern>
+    <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year. </template>
+</category>
+    
+   
+    <category>
+        <pattern>web dev</pattern>
+        <template>You might enjoy being a software developer. Software developers solve large scale problems using software.They rely on a deep understanding of problem solving, data structures, and algorithms to create and implement those solutions. According to US News, the average software developer makes just over $107,000 a year.</template>
+    </category>
+    
+    <category>
+        <pattern>communications</pattern>
+        <template>You might enjoy being a project manager. PMs coordinate teams to tackle problems too large for individuals to handle themselves. To accomplish this, project managers leverage leadership, communication skills, and a basic understanding of the technical tasks. According to Glassdoor, the average project manager makes around $98,000 a year.</template>
+    </category>
+    <category>
+        <pattern>cybersec</pattern>
+        <template>You might enjoy being a cybersecurity engineer. Cybersecurity engineers use a variety of skills to prevent, shorten, and fight cybercrimes and hacking. They're critical to the protection of businesses and users. According to Glassdoor, the average cybersecurity engineer makes over $101,000 a year.</template>
+    </category>
+    <category>
+        <pattern>pm</pattern>
+        <template>You might enjoy being a project manager. PMs coordinate teams to tackle problems too large for individuals to handle themselves. To accomplish this, project managers leverage leadership, communication skills, and a basic understanding of the technical tasks. According to Glassdoor, the average project manager makes around $98,000 a year.</template>
+    </category>
+    <category>
+        <pattern>coding</pattern>
+        <template>You might enjoy being a software developer. Software developers solve large scale problems using software.They rely on a deep understanding of problem solving, data structures, and algorithms to create and implement those solutions. According to US News, the average software developer makes just over $107,000 a year.</template>
+    </category>
+    <category>
+        <pattern>data structures</pattern>
+        <template>You might enjoy being a software developer. Software developers solve large scale problems using software.They rely on a deep understanding of problem solving, data structures, and algorithms to create and implement those solutions. According to US News, the average software developer makes just over $107,000 a year.</template>
+    </category>
+    
+    <category>
+        <pattern>data</pattern>
+        <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year.</template>
+    </category>
+
+    <category>
+        <pattern>qa</pattern>
+        <template>You might enjoy being a software test engineer. Software test engineers use and create tooling to help check software for usability and bugs. They're critical for catching issues with software before users have it. According to Glassdoor, the average software test engineer makes around $87,000 a year.</template>
+    </category>
 </aiml>

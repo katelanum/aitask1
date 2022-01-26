@@ -1,13 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aiml>
-  <category>
+<aiml version="2.0"> 
+
+ <category>
     <pattern>hi</pattern>
-    <template><srai>Hi</srai></template>
-    <template><srai>Hello</srai></template>
-    <template><srai>hello</srai></template>
-    <template><srai>howdy</srai></template>
     <template>Hello, I'm your career advisor bot. Nice to meet you. Which of these did you enjoy most during your degree? 
-    <ul>
+        <ul>
             <li>Statistics</li>
             <li>Math</li>
             <li>Machine Learning</li>
@@ -23,102 +20,57 @@
             <li>Quality Assurance</li>
         </ul>
     </template>
-    </category>
-    <category>
+</category>
+  <category>
         <pattern>statistics</pattern>
-        <tepmlate><srai>stats</srai></tepmlate>
-        <template><srai>Statistics</srai></template>
-        <template><srai>Stats</srai></template>
         <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year. </template>
     </category>
     <category>
         <pattern>math</pattern>
-        <template><srai>maths</srai></template>
-        <template><srai>mathematics</srai></template>
-        <template><srai>arithmetic</srai></template>
-        <template><srai>Math</srai></template>
-        <template><srai>Maths</srai></template>
-        <template><srai>Mathematics</srai></template>
-        <template><srai>Arithmetic</srai></template>
         <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year.</template>
     </category>
     <category>
         <pattern>machine learning</pattern>
-        <template><srai>ml</srai></template>
-        <template><srai>Machine Learning</srai></template>
-        <template><srai>ML</srai></template>
         <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year.</template>
     </category>
     <category>
         <pattern>web development</pattern>
-        <template><srai>web dev</srai></template>
-        <template><srai>Web Development</srai></template>
-        <template><srai>Web Dev</srai></template>
         <template>You might enjoy being a software developer. Software developers solve large scale problems using software.They rely on a deep understanding of problem solving, data structures, and algorithms to create and implement those solutions. According to US News, the average software developer makes just over $107,000 a year.</template>
     </category>
     <category>
         <pattern>communication</pattern>
-        <template><srai>communications</srai></template>
-        <template><srai>techincal communication</srai></template>
-        <template><srai>technical communications</srai></template>
-        <template><srai>english</srai></template>
-        <template><srai>Communication</srai></template>
-        <template><srai>Communications</srai></template>
-        <template><srai>Techincal Communication</srai></template>
-        <template><srai>Technical Communications</srai></template>
-        <template><srai>English</srai></template>
         <template>You might enjoy being a project manager. PMs coordinate teams to tackle problems too large for individuals to handle themselves. To accomplish this, project managers leverage leadership, communication skills, and a basic understanding of the technical tasks. According to Glassdoor, the average project manager makes around $98,000 a year.</template>
     </category>
     <category>
         <pattern>cybersecurity</pattern>
-        <template><srai>cybersec</srai></template>
-        <template><srai>security</srai></template>
-        <template><srai>cyber security</srai></template>
-        <template><srai>Cybersecurity</srai></template>
-        <template><srai>Cybersec</srai></template>
-        <template><srai>Security</srai></template>
-        <template><srai>Cyber Security</srai></template>
         <template>You might enjoy being a cybersecurity engineer. Cybersecurity engineers use a variety of skills to prevent, shorten, and fight cybercrimes and hacking. They're critical to the protection of businesses and users. According to Glassdoor, the average cybersecurity engineer makes over $101,000 a year.</template>
     </category>
     <category>
         <pattern>project management</pattern>
-        <template><srai>pm</srai></template>
-        <template><srai>management</srai></template>
-        <template><srai>Project Management</srai></template>
-        <template><srai>PM</srai></template>
-        <template><srai>Management</srai></template>
         <template>You might enjoy being a project manager. PMs coordinate teams to tackle problems too large for individuals to handle themselves. To accomplish this, project managers leverage leadership, communication skills, and a basic understanding of the technical tasks. According to Glassdoor, the average project manager makes around $98,000 a year.</template>
     </category>
     <category>
         <pattern>programming</pattern>
-        <template><srai>coding</srai></template>
-        <template><srai>Programming</srai></template>
-        <template><srai>Coding</srai></template>
         <template>You might enjoy being a software developer. Software developers solve large scale problems using software.They rely on a deep understanding of problem solving, data structures, and algorithms to create and implement those solutions. According to US News, the average software developer makes just over $107,000 a year.</template>
     </category>
     <category>
         <pattern>algorithms</pattern>
-        <template><srai>algo</srai></template>
-        <template><srai>algos</srai></template>
-        <template><srai>Algorithms</srai></template>
-        <template><srai>Algo</srai></template>
-        <template><srai>Algos</srai></template>
         <template>You might enjoy being a software developer. Software developers solve large scale problems using software.They rely on a deep understanding of problem solving, data structures, and algorithms to create and implement those solutions. According to US News, the average software developer makes just over $107,000 a year.</template>
     </category>
     <category>
+        <pattern>security</pattern>
+        <template>You might enjoy being a cybersecurity engineer. Cybersecurity engineers use a variety of skills to prevent, shorten, and fight cybercrimes and hacking. They're critical to the protection of businesses and users. According to Glassdoor, the average cybersecurity engineer makes over $101,000 a year.</template>
+    </category>
+    <category>
         <pattern>data management</pattern>
-        <template><srai>data*</srai></template>
-        <template><srai>Data Management</srai></template>
-        <template><srai>Data*</srai></template>
         <template>You might enjoy being a data scientist. Data scientists use math, statistics, and machine learning to break huge data sets into digestable, actionable insights. According to US News, the average data scientist makes just over $94,000 a year.</template>
     </category>
     <category>
+        <pattern>technical communications</pattern>
+        <template>You might enjoy being a project manager. PMs coordinate teams to tackle problems too large for individuals to handle themselves. To accomplish this, project managers leverage leadership, communication skills, and a basic understanding of the technical tasks. According to Glassdoor, the average project manager makes around $98,000 a year.</template>
+    </category>
+    <category>
         <pattern>quality assurance</pattern>
-        <template><srai>qa</srai></template>
-        <template><srai>testing</srai></template>
-        <template><srai>Quality Assurance</srai></template>
-        <template><srai>QA</srai></template>
-        <template><srai>Testing</srai></template>
         <template>You might enjoy being a software test engineer. Software test engineers use and create tooling to help check software for usability and bugs. They're critical for catching issues with software before users have it. According to Glassdoor, the average software test engineer makes around $87,000 a year.</template>
     </category>
 </aiml> 
